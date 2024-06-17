@@ -1,0 +1,346 @@
+/*  .Page1{
+    margin-bottom: 15px;
+}*/
+
+.Image{
+            
+    width: 400px;
+    height: 400px;
+    image-rendering: auto;
+    border: solid;
+    border-color: rgb(91, 3, 3);
+    border-radius: 500px;
+    cursor:grabbing;
+    display: inline-block;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.image{
+    margin-top: 120px;
+    margin-left: 190px;
+    display: inline-block;
+    width: 467px;
+    
+}
+.P1{
+    display: block;
+    margin-top: 120px;
+    margin-left: 15px;
+
+}
+.Intro{
+    display: block;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 100px;
+    margin-bottom: 1px;
+    
+}
+.Intro1{
+    
+    width: 670px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: start;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    color:#1a1c20;
+}
+.name{
+    margin-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #1a1b1f;
+    background-color: #eeeff1;
+    line-height: 28px ;
+    text-align: start;
+    font-weight: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    ;
+}
+.Front{
+    display: flex;
+    color:#1a1b1f;
+    background-color: #eeeff3c4;
+    padding-bottom: 50px;
+}
+.sname{
+    font-size: 45px;
+    
+    text-align: justify;
+    position: fixed;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    
+}
+.navbar ul{
+    list-style-type: none;/* To start with, we can remove the bullets from the unordered list, like this */
+    position: fixed;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style:armenian;
+    margin:3px 20px;/* Space up down and in between */
+    
+}
+.navbar ul li a{
+    color: #1a1b1f;
+    font-weight: bold;
+    font-size: large;
+    transition: background-color 0.14s,color 0.30s;
+    text-decoration:none;
+}
+.navbar ul li a:hover{
+
+    color:red;
+    opacity: 0.8;
+}
+.head5{
+    font-size: 80px;
+    margin-left: 80px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+    display: block;
+    line-height: 100px;
+    width: 400px;
+    height: 80px;
+    background-color: #eeeff3c4;
+}
+.head6{
+    font-size: 25px;
+    width: 800px;
+    margin-left: 80px;
+    background-color: #eeeff3c4;
+}
+.Page2{
+        width: 30px;
+        display:flex;/* Wont take all available space in the line */
+        padding-bottom: 200px;
+        background-color: bisque;
+        
+}
+
+.Join{
+        background-color: rgb(6, 6, 6);
+        color: rgb(37, 98, 230);
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        border-color: rgb(0, 9, 30);
+        border-radius: 5px ;
+        cursor: pointer;
+        border-style : solid;
+        transition: background-color 0.30s, color 0.15s;
+        margin-right: 16px;
+        
+        
+}
+.Join:active{
+    opacity:0.4;
+}
+.Join:hover{
+    
+    
+    background-color:rgb(37, 98, 230) ;
+    color:whitesmoke;
+}
+
+.b1{
+    display: flex;
+    width:1px;
+    margin-top: 450px;
+    
+}
+.About{
+    margin-top: 300px;
+    background-color: #eeeff3c4;
+    margin-left: 80px;
+    margin-bottom: 300px;
+}
+.P2{
+    background-color: #eeeff3c4;
+    margin-bottom: 0px;
+}
+.row{
+    display: flex;
+    background-color:  #eeeff1;
+    padding-top: 90px;
+    margin-left: 30px ;
+    padding-bottom: 190px;
+    
+    margin-top: 0px;
+    width: 1500px;
+}
+.tt{
+    font-size: 80px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 50px;
+    height: 80px;
+    background-color: #eeeff1;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    
+    
+}
+.courses1{
+    width:500px;
+    font-family: Poppins,sans-serif;
+    background-color: #06032d;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 95px;
+    padding-right: 48px;
+    color: azure;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.courses2{
+    width:500px;
+    font-family: Poppins,sans-serif;
+    background-color: #06032d;
+    margin-right: 50px;
+    padding-left: 95px;
+    color:  #eeeff1;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 48px;
+}
+.courses3{
+    width:500px;
+    font-family: Poppins,sans-serif;
+    background-color: #06032d;
+    padding-left: 85px;
+    margin-right: 50px;
+    color: azure;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 48px;
+}
+
+.Education{
+    width: 30px;
+    display:flex;/* Wont take all available space in the line */
+    padding-bottom: 200px;
+    background-color: bisque;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.contact-left{
+    display: block;
+    flex-basis: 50%;
+    
+}
+.Contact-Right{
+    display: flex;
+}
+.contact-left p{
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.contact-left p i{/* to design the icon */
+    font-size: 28px;
+    margin-right: 10px;
+    color: rgb(91, 3, 3);
+    transition: 0.4s;
+}
+.contact-left p i:hover{
+    color: red;
+    transform:scale(1.5);
+}
+
+
+.sub{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sub i{
+    color:teal;
+    margin-right: 10px;
+    font-size: 30px;
+    transition: 0.4s;
+}
+.sub i:hover{
+    color: rgba(52, 15, 238, 0.919);
+    transform: scale(1.5);
+}
+
+.socials a{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    transition: 0.38s;
+    
+}
+.socials a:hover{
+    color: blue;
+    /* transform:scale(1.2);    FOR ZOOM IN EFFECT*/
+    /* transform: translateX(-3.5px);   FOR MOVE ICON BY X AXIS/*/
+    transform: translateY(3.5px);
+}
+.CV{
+    margin-top: 25px;
+    margin-left: 75px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    transition: 0.3s;
+}
+.CV a i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.CV a{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.CV:hover{
+    background-color: rgba(67, 24, 24, 0.767);
+    transform: scale(0.8);
+    
+}
+.Page44{
+    width: 30px;
+    display:flex;/* Wont take all available space in the line */
+    padding-bottom: 200px;
+    background-color: bisque;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.audio1{
+    padding-top: 125px;
+    display: flex;
+    
+}
+.iaudio{
+    padding-top: 35px;
+    padding-bottom: 34px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(2, 76, 156);
+    border-radius: 50px;
+}
